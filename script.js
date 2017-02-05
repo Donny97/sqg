@@ -28,7 +28,7 @@ $(document).ready(function(){
         $('#quote').text('"' + q[quoteNum] + '"');
         $('#sharebtntw').attr('href','http://www.twitter.com/intent/tweet?hashtags=quote&text=' + encodeURIComponent('"' + q[quoteNum] + '"'));
 //        $('#sharebtnfb').attr('href','https://www.facebook.com/sharer/sharer.php?url=' + encodeURIComponent('"' + q[quoteNum] + '"'));
-//        $('#sharebtnfb').attr('href','https://www.facebook.com/sharer/sharer.php?url="index.html"');
+        $('#sharebtnfb').attr('href','https://www.facebook.com/sharer/sharer.php?u=donny97.github.io/sqg');
         
     }
     
